@@ -37,4 +37,3 @@ input_text = st.text_input("質問を入力してください")
 if input_text:
     response = get_llm_response(input_text, expert_type)
     st.write(response)
-st.write(result.content)
